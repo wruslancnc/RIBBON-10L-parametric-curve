@@ -1,5 +1,5 @@
-# RIBBON10L-parametric-curve
-RIBBON10L C-codes to generate NGC for CNC milling
+# RIBBON-10L-parametric-curve
+RIBBON-10L C-codes to generate NGC for CNC milling
 
 ![](RIBBON10L-screenshots/RIBBON10L-Screenshot.png)
 
