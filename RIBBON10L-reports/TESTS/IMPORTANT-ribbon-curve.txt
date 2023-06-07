@@ -1,0 +1,59 @@
+RIBBON CURVE
+
+https://www.geneseo.edu/~aguilar/public/notes/Calculus-2-HTML/ch4-parametric-equations-and-polar-coordinates.html
+==============================
+Example 4.1.11
+
+x(t) = t*t
+dx_dt = 2*t
+d2x_dt2 = 2
+
+==============================
+y(t) = t*t*t - 3*t + 3
+dy_dt = 3*t*t - 3
+d2y_dt2 = 6*t
+
+THE TRANSFORMATION EQUATION CALCULATED BELOW GIVES
+
+u = (0.25)t + 0.50
+(0.25)t = u - 0.50
+
+t = (u - 0.50)/(0.25)
+t = 4(u - 0.5)
+
+
+## COMMENT RANGES (GOOD FOR RIBBON ABOVE)
+set xrange [ -1.0 : +6.0]
+set yrange [ -1.0 : +6.0]
+
+## ================================================================== 
+## START THE FOR LOOP (GOOD RANGE)
+## TO MAKE LINEAR TRANSFORMATION u = 0.00 AT t = -2.00 
+##                               u = 1.00 AT t = +2.00
+"""
+y = Mx + C (Find M and C)
+Point 1
+0.00 = M(-2.00) + C
+C = 2M
+
+Point 2
+1.00 = M(+2.00) + C
+1.00 = 2M + 2M
+1.00 = 4M
+M = (1.00/4) = (1/4)
+
+C = 2M = (2)(1.00/4) = (1/2)
+
+y = (1/4)x + (1/2)
+
+TRANSFORM EQUATION BECOMES: 
+u = (0.25)t + 0.50
+
+CHECK 1: AT t = -2.000
+u = (0.25)(-2.00) + 0.50 = 0.00
+
+CHECK 2: AT t = 2.00
+u = (0.25)(+2.00) + 0.50 = 1.00
+
+"""
+====================================================================
